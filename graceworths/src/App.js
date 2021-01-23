@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from "./components/Navbar";
 import LandingPage from "./components/LandingPage";
 import AboutPage from "./components/About";
-import Carousel from "./components/Carousel";
+// import Carousel from "./components/Carousel";
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Navbar bgColor={"white"} />
       <LandingPage bgColor={"blue"} />
       <AboutPage bgColor={"white"} />
-      <Carousel bgColor={"light"} />
+      {/* <Carousel bgColor={"light"} /> */}
       
     </div>
   );
