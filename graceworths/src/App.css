@@ -27,6 +27,7 @@ h2 {
   font-style: normal;
   font-weight: 700;
   font-size: 2.5em !important;
+  margin-bottom: 2rem;
 }
 
 h4 {
@@ -35,6 +36,11 @@ h4 {
 
 p {
   font-weight: 200 !important;
+}
+
+.card {
+  max-height: 20rem;
+  min-height: 15rem;
 }
 
 .landing-page, .landing-page p {
@@ -87,6 +93,7 @@ p {
 }
 
 /* Responsive screens */
+
 /* Tab screens */
 
 @media only screen and (min-width: 769px) and (max-width: 1023px) {
