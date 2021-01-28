@@ -1,46 +1,202 @@
 .App {
   width: 100%;
+  font-family: Sahitya;
+  font-style: normal;
 }
+
 .blue {
   background-color: #273739;
   color: white;
 }
+
 .white {
   background-color: #ffffff;
   color: #273739;
 }
+
 .light {
   background-color: #76B1BA;
   color: black;
 }
-.landing-page {
+
+h2, .text-center {
+  text-align: center;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5em !important;
+}
+
+h4 {
+  font-weight: 500 !important;
+}
+
+p {
+  font-weight: 200 !important;
+}
+
+.landing-page, .landing-page p {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-
-  font-family: Sahitya;
-  font-style: normal;
   font-weight: bold;
-  font-size: 67px;
-  line-height: 104px;
+  font-size: 60px;
+  line-height: 100px;
   display: flex;
   align-items: center;
   text-align: center;
 }
 
 .about-page {
-  padding:4em 3em;
-  height: 100vh;
+  padding: 20px 15px;
   align-items: center;
   justify-content: center;
-
-  font-family: Sahitya;
-  font-style: normal;
-  font-weight: bold;
-  font-family: Sahitya;
-  font-size: 36px;
-  line-height: 76px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 37px;
   align-items: center;
-  text-align: center;
+}
+
+.about-page p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: justify;
+}
+
+.FAQ-page {
+  padding: 20px 15px;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 37px;
+  align-items: center;
+}
+
+.services-page {
+  padding: 20px 15px;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 37px;
+  align-items: center;
+}
+
+/* Responsive screens */
+/* Tab screens */
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+  h2 {
+    font-size: 2.5em !important;
+  }
+  h4 {
+    font-weight: 500 !important;
+  }
+  p {
+    font-weight: 200 !important;
+  }
+  .landing-page {
+    font-size: 60px;
+    line-height: 100px;
+  }
+  .about-page {
+    padding: 20px 15px;
+    font-size: 20px;
+    line-height: 37px;
+  }
+  .about-page p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .FAQ-page {
+    padding: 20px 15px;
+    font-size: 20px;
+    line-height: 37px;
+  }
+  .services-page {
+    padding: 20px 15px;
+    font-family: Sahitya;
+    font-size: 20px;
+    line-height: 37px;
+  }
+}
+
+/* Medium smart phones */
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  h2 {
+    font-size: 2.5em !important;
+  }
+  h4 {
+    font-weight: 500 !important;
+  }
+  p {
+    font-weight: 200 !important;
+  }
+  .landing-page {
+    font-size: 60px;
+    line-height: 100px;
+  }
+  .about-page {
+    padding: 20px 15px;
+    font-size: 20px;
+    line-height: 37px;
+  }
+  .about-page p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .FAQ-page {
+    padding: 20px 15px;
+    font-size: 20px;
+    line-height: 37px;
+  }
+  .services-page {
+    padding: 20px 15px;
+    font-family: Sahitya;
+    font-size: 20px;
+    line-height: 37px;
+  }
+}
+
+/* Small smart phones */
+
+@media only screen and (max-width: 425px) {
+  h2 {
+    font-size: 2em !important;
+  }
+  h4 {
+    font-weight: 500 !important;
+  }
+  p {
+    font-weight: 200 !important;
+  }
+  .landing-page, .landing-page p {
+    height: 110vh;
+    font-size: 50px;
+    line-height: 100px;
+  }
+  .about-page {
+    padding: 20px 15px;
+    font-size: 15px;
+    line-height: 37px;
+  }
+  .about-page p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .FAQ-page {
+    padding: 20px 15px;
+    font-size: 15px;
+    line-height: 37px;
+  }
+  .services-page {
+    padding: 20px 15px;
+    font-size: 15px;
+    line-height: 37px;
+  }
 }
