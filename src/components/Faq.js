@@ -24,7 +24,7 @@ const FAQPage = ({ bgColor }) => {
                     <h4 className="pt-3 pb-3">Is there any form of certification? </h4>
                     <p >Yes! All these are certified courses ad professional examinations are available.</p>
                     <p>Any more questions?
-                        <a href="mailto:pidox31102002@gmail.com?subject=...HOW...?" target="_blank">
+                        <a rel="noreferrer" href="mailto:pidox31102002@gmail.com?subject=...HOW...?" target="_blank">
                             <em>Contact Us</em>
                         </a><em>.</em></p>
                 </div>
